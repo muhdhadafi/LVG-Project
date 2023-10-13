@@ -1,0 +1,105 @@
+<!-- src/app/contact-us/contact-us.component.html -->
+<div class="container mt-4">
+  <h2>Contact Us</h2>
+  <!-- <form [formGroup]="contactForm" (ngSubmit)="onSubmit()">
+      <div class="form-group">
+        <label for="name">Name</label>
+        <input type="text" id="name" formControlName="name" class="form-control" />
+      </div>
+      <div class="form-group">
+        <label for="email">Email</label>
+        <input type="email" id="email" formControlName="email" class="form-control" />
+      </div>
+      <div class="form-group">
+        <label for="subject">Subject</label>
+        <input type="text" id="subject" formControlName="subject" class="form-control" />
+      </div>
+      <div class="form-group">
+        <label for="message">Message</label>
+        <textarea id="message" formControlName="message" class="form-control"></textarea>
+      </div>
+      <button type="submit" class="btn btn-primary">Submit</button>
+    </form> -->
+
+  <div class="row">
+    <!-- Contact Form and Address Side by Side -->
+    <h3>Contact Form</h3>
+    <div class="col-md-6">
+      <form>
+        <!-- Contact Form Fields -->
+        <!-- ... -->
+        <div class="form-group">
+          <label for="name">Name:</label>
+          <input
+            class="form-control"
+            type="text"
+            id="name"
+            name="name"
+            required
+          />
+        </div>
+
+        <div class="form-group">
+          <label for="email">Email:</label>
+          <input
+            class="form-control"
+            type="email"
+            id="email"
+            name="email"
+            required
+          />
+        </div>
+
+        <div class="form-group">
+          <label for="message">Message:</label>
+          <textarea
+            id="message"
+            class="form-control"
+            name="message"
+            rows="4"
+            required
+          ></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary mt-2">Submit</button>
+      </form>
+    </div>
+
+    <!-- Divider -->
+    <div
+      class="col-md-1 d-none d-md-block"
+      style="border-right: 1px solid #ccc"
+    ></div>
+
+       <!-- Office Address -->
+       <div class="col-md-5 mt-4 mt-md-0">
+        <h3>Office Address</h3>
+        <p>Dagang Net Tower, Block 10, Star Central, 63000 Cyberjaya, Selangor</p>
+  
+        <h3>Contact Information</h3>
+        <ul>
+          <li><strong>Phone:</strong> +123 456 7890</li>
+          <li><strong>Fax:</strong> +123 456 7891</li>
+          <li><strong>Careline:</strong> 24/7 Support</li>
+          <li><strong>Email:</strong> info@example.com</li>
+        </ul>
+      </div>
+
+    </div>
+
+    <div class="mt-4">
+      <h3>Google Map</h3>
+      <!-- Embed Google Map iframe here -->
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3984.667057605227!2d101.64990977611495!3d2.911820897064589!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31cdb7ef33103d81%3A0x453320a48bb9e10f!2sDagang%20Net%20Technologies%20Sdn%20Bhd!5e0!3m2!1sen!2smy!4v1697042569946!5m2!1sen!2smy"
+        width="600"
+        height="450"
+        style="border: 0"
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"
+      ></iframe>
+    </div>
+
+
+
+</div>

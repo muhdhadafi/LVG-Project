@@ -1,0 +1,22 @@
+/* src/app/carousel/carousel.component.css */
+
+/* Optional: Add styles to the carousel container */
+.carousel-container {
+    max-width: 800px; /* Adjust the maximum width as needed */
+    margin: auto; /* Center the carousel horizontally */
+  }
+  
+  /* Optional: Style for the carousel slide */
+  .slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* Optional: Style for the carousel image */
+  .slide img {
+    width: 100%; /* Stretch the image to fill the width of its container */
+    height: 100%; /* Stretch the image to fill the height of its container */
+    object-fit: cover; /* Ensure the image covers the entire container, maintaining aspect ratio */
+  }
+  
